@@ -1,0 +1,29 @@
+.contact-info {
+    margin-left: 30px;
+}
+img {
+    margin-left: 30px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.icon-pen {
+    font-size: 20px;
+    margin-right: 40px; 
+    color: black;
+}
+
+.icon-trash {
+    font-size: 20px;
+    margin-left: 10px; 
+    margin-right: 40px;
+}
+
+.modal-body {
+    margin-right: auto;
+}
