@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "../../styles/home.css";
 import { Context } from "../store/appContext";
 import Modal from "../component/modal";
+import rigoBaby from "../../img/rigo-baby.jpg";
+
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -39,7 +41,7 @@ export const Home = () => {
           >
             <div className="d-flex align-items-center">
               <img
-                src="../rigo-baby.jpg"
+                src={rigoBaby}
                 className="img-fluid rounded-circle"
                 alt={contact.name}
                 style={{ width: "200px", height: "180px" }}
@@ -54,7 +56,7 @@ export const Home = () => {
                   <i className="bi bi-telephone-fill"> </i>
                   {contact.phone}
                 </p>
-				<p className="text-secondary">
+				        <p className="text-secondary">
                   <i className="bi bi-envelope-fill"> </i>
                   {contact.email}
                 </p>
